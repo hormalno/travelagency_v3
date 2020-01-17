@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html
+        xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+        xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head}"></head>
+<body>
+<header th:replace="~{fragments/header}"></header>
+<div th:replace="${view}"></div>
+<footer th:replace="~{fragments/footer}"></footer>
+<script th:replace="~{fragments/script}"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="col-xs-12 col-sm-7">
+        <form method="post">
+        <h3 th:text="|Are you sure you want to delete ${hotel.name}|"></h3>
+            <input type="submit" class="btn btn-success" value="Delete">
+            <a class="btn btn-danger" th:href="'/hotels/'+${hotel.id}">Back</a>
+        </form>
+    </div>
+</div>

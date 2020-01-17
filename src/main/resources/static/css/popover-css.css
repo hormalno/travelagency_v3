@@ -1,0 +1,18 @@
+/* Popover */
+.popover {
+}
+
+/* Popover Header */
+.popover-title {
+    color: #000000;
+    font-size: 14px;
+    text-align:center;
+}
+
+/* Popover Body */
+.popover-content {
+    background-position: center;
+    text-align: center;
+    font-size: 4px;
+    color: #000000;
+}
