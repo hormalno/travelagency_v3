@@ -17,4 +17,7 @@ public class TravelagencyV2Application {
         return new ModelMapper();
     }
 
+    private int asd;
+
+
 }
